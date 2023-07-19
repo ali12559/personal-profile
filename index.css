@@ -1,0 +1,74 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    width: 100%;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+    background-color: teal;
+    margin: 200px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  
+  nav ul li {
+text-align: center;  }
+  
+  nav ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+  }
+
+  nav ul li a:hover{
+    background-color: #111;
+  }
+  .active {
+    background-color: yellowgreen;
+  }
+  
+.about {
+    float: left;
+    background-color: aliceblue;
+    width: 60%;
+    padding-left: 10px;
+    margin-left: 50px;
+    display: block;
+    text-align: center;
+}
+.skill {
+    float: left;
+    width: 20%;
+    background-color: palegoldenrod;
+    padding: 30px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.contact {
+    background-color: turquoise;
+    margin-top: 240px;
+    padding-left: 20px;
+}
+
+
+.footer {
+    background-color: #e5e5e5;
+    text-align: center;
+    padding: 10px;
+    margin-top: 70px;
+}
+
